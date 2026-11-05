@@ -5,6 +5,7 @@ pandas>=2.0
 numpy>=1.26
 requests>=2.31
 pyyaml>=6.0
-# GPU training (Modal notebook only):
-# torch --index-url https://download.pytorch.org/whl/cu121
-# torch_geometric
+# GNN inference (CPU):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch_geometric>=2.5
+# GPU training happens in kaggle_notebook.py (Kaggle T4), not here.
