@@ -9,6 +9,29 @@ predictions across 5 proteins: **AChE, BACE1, GSK3B** (Alzheimer's) and
 > ⚠️ Research prototype. Predictions are unvalidated computational estimates,
 > not medical facts. Not for clinical use.
 
+## Try it (no install)
+
+- **Live demo (recommended):** deploy from this repo in ~5 min —
+  [Streamlit Community Cloud](https://share.streamlit.io/) → New app →
+  select this repo → main file `app.py`. First build takes ~10 min (torch).
+  Paste the demo URL into the Devpost submission.
+- **No-click preview:** the gallery below + the preset table run from the same
+  code and data as the app (`src/gallery.py` regenerates both images).
+
+![9 example plant compound structures](assets/molecules.png)
+
+![RF vs GNN binding probabilities](assets/rf_vs_gnn.png)
+
+### Visual presets (what the app shows per compound)
+
+| preset | top RF hit | top GNN hit | RF disease rank |
+|---|---|---|---|
+| galantamine (snowdrop) | AChE 0.97 | TNF 0.85 | 🥇 Alzheimer's 0.65 |
+| EGCG (green tea) | BACE1 0.88 | GSK3B 0.77 | 🥇 Alzheimer's 0.49 |
+| berberine (barberry) | COX-2 0.61 | TNF 0.92 | 🥇 Inflammation 0.56 |
+| artemisinin (sweet wormwood) | COX-2 0.51 | TNF 0.93 | 🥇 Inflammation 0.44 |
+| curcumin (turmeric) | GSK3B 0.63 | AChE 0.83 | 🥇 Alzheimer's 0.39 |
+
 ## Quickstart
 
 ```bash
