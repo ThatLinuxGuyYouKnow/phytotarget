@@ -1,0 +1,39 @@
+# PhytoTarget ML — Plant Compound Screening via GNNs
+# EthnoHack 2026 · Track 2 (Natural products & drug discovery)
+
+targets:
+  - name: AChE
+    full: Acetylcholinesterase
+    uniprot: P22303
+    chembl_id: CHEMBL220
+    disease: Alzheimer's disease
+    role: Breaks down acetylcholine (memory signal). Blocking it helps memory.
+
+  - name: BACE1
+    full: Beta-secretase 1
+    uniprot: P56817
+    chembl_id: CHEMBL4822
+    disease: Alzheimer's disease
+    role: Makes amyloid plaques that clog Alzheimer's brains.
+
+  - name: GSK3B
+    full: Glycogen synthase kinase-3 beta
+    uniprot: P49841
+    chembl_id: CHEMBL262
+    disease: Alzheimer's disease
+    role: Makes tau tangles; also linked to inflammation.
+
+  - name: PTGS2
+    full: Cyclooxygenase-2 (COX-2)
+    uniprot: P35354
+    chembl_id: CHEMBL230
+    disease: Inflammation / pain
+    role: Causes pain and swelling. Ibuprofen-like drugs hit this family.
+
+  - name: TNF
+    full: Tumor necrosis factor alpha
+    uniprot: P01375
+    chembl_id: null  # resolved by search at fetch time; sparse small-molecule data
+    disease: Inflammation
+    role: Master switch for inflammation.
+    fallback_to_similarity: true

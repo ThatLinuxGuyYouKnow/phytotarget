@@ -1,0 +1,10 @@
+streamlit>=1.30
+rdkit>=2024.3
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.26
+requests>=2.31
+pyyaml>=6.0
+# GPU training (Modal notebook only):
+# torch --index-url https://download.pytorch.org/whl/cu121
+# torch_geometric

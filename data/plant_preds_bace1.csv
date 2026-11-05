@@ -1,0 +1,10 @@
+name,smiles,plant_source,traditional_use,bace1_active_prob
+curcumin,COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O,Turmeric (Curcuma longa),Anti-inflammatory in Ayurveda,0.09
+quercetin,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O,Onions / Moringa,General inflammation remedy,0.04
+resveratrol,C1=CC(=CC=C1/C=C/C2=CC(=CC(=C2)O)O)O,Japanese knotweed / grapes,Heart and longevity tonic,0.09666666666666666
+EGCG,C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O,Green tea (Camellia sinensis),Stimulant and health tonic,0.88
+berberine,COC1=C(C2=C(CN3CCC4=CC5=C(C=C4C3=C2)OCO5)C=C1)OC,Barberry / Coptis,Infections and gut disorders,0.23833333333333334
+artemisinin,CC1CCC2C(C(=O)OC3C2C1CCC3(C)OO)C,Sweet wormwood (Artemisia annua),Fever / malaria in TCM,0.27666666666666667
+aspirin,CC(=O)Oc1ccccc1C(=O)O,Willow bark derivative,Pain and fever (reference drug),0.10666666666666667
+galantamine,CN1CCC23C=CC(CC2OC4=C(C=CC(=C34)C1)OC)O,Snowdrop (Galanthus),Memory (Alzheimer's drug from plants),0.3325
+huperzine A,CC1=CC2C(CC1)C3(CCN2C)C(=CC(=O)N3)C,Chinese club moss (Huperzia),Memory enhancement in TCM,0.404

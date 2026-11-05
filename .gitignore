@@ -1,0 +1,14 @@
+# dependencies, env, build output
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+checkpoints/
+mlruns/
+# learner profile (personal learning context, keep out of commits by default)
+devpost/learner-profile.md
+# large RF pickles are regenerated via src/baseline.py — don't commit
+models/*.pkl
